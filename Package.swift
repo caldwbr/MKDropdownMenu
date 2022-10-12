@@ -14,8 +14,7 @@ let package = Package(
     ],
     targets: [
 		.target(
-			name: "MKDropdownMenu.h", 
-"MKDropdownMenu.m",
+			name: "MKDropdownMenu",
             path: "MKDropdownMenu"
 		)
 	]
