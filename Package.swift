@@ -13,7 +13,9 @@ let package = Package(
             targets: ["MKDropdownMenu"]),
     ],
     targets: [
-        .target(name: "MKDropdownMenu",
-                exclude: ["Supporting Files"]),
-    ]
+		.target(
+			name: "MKDropdownMenu",
+            path: "Sources"
+		)
+	]
 )
