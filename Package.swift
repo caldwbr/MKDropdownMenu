@@ -15,8 +15,7 @@ let package = Package(
     ],
     targets: [
 		.target(
-			name: "MKDropdownMenu",
-            path: "Sources"
+			name: "MKDropdownMenu"
 		)
 	]
 )
