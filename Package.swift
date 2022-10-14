@@ -11,10 +11,12 @@ let package = Package(
         .library(
             name: "MKDropdownMenu",
             targets: ["MKDropdownMenu"]),
+	    path: "Sources/"
     ],
     targets: [
 		.target(
-			name: "MKDropdownMenu"
+			name: "MKDropdownMenu",
+			path: "Sources/"
 		)
 	]
 )
