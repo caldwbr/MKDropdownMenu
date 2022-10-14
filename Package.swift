@@ -10,8 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "MKDropdownMenu",
-            targets: ["MKDropdownMenu"],
-	path: "Sources"),
+            targets: ["MKDropdownMenu"]),
     ],
     targets: [
 		.target(
